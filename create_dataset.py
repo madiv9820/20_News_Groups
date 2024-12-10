@@ -44,4 +44,4 @@ class CreateDataset:
         dataset = pd.DataFrame(data)
 
         # Save the DataFrame to a CSV file
-        dataset.to_csv('News_Data.csv', index=False)
+        dataset.to_csv('News_Data.csv', index = False)
