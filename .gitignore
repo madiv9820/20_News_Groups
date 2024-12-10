@@ -2,3 +2,4 @@
 __pycache__/
 .ipynb*
 News_Data.csv
+twenty_newsgroups/
