@@ -128,9 +128,9 @@ class WordDataset:
         plt.axis((0, 41, 0, maximum_Frequency + 1))
         plt.yticks(np.arange(0, maximum_Frequency + 500, 200))
         plt.xticks(np.arange(0, 41, 1))
-        plt.xlabel('<----- No of Words ----->', fontsize = 25)
-        plt.ylabel('<--- Frequency ---->', fontsize = 25)
-        plt.title('No of words vs Frequency', fontsize = 25)
+        plt.xlabel('<----- Word Frequency ----->', fontsize = 25)
+        plt.ylabel('<----- No of Words ----->', fontsize = 25)
+        plt.title('Word Frequency Distribution Plot', fontsize = 30)
         plt.grid()
         plt.show()
 
