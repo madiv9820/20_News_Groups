@@ -126,7 +126,7 @@ class WordDataset:
         plt.scatter(frequency_For_Each_Word_Count[:, 0], frequency_For_Each_Word_Count[:, 1])
         plt.plot(frequency_For_Each_Word_Count[:, 0], frequency_For_Each_Word_Count[:, 1])
         plt.axis((0, 41, 0, maximum_Frequency + 1))
-        plt.yticks(np.arange(0, maximum_Frequency + 500, 200))
+        plt.yticks(np.arange(0, maximum_Frequency + 1500, 500))
         plt.xticks(np.arange(0, 41, 1))
         plt.xlabel('<----- Word Frequency ----->', fontsize = 25)
         plt.ylabel('<----- No of Words ----->', fontsize = 25)
