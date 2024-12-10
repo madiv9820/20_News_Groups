@@ -7,6 +7,10 @@ class CreateDataset:
         # Initialize with the path to the folder containing category subfolders
         self.__folderPath = folderPath
 
+     # String representation of the class
+    def __repr__(self):
+        return 'class CreateDataset'
+
     def create_Text_Dataset(self) -> None:
         # Create an empty list to store the data
         data = []
