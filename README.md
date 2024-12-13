@@ -153,6 +153,8 @@
   - Add support for additional classifiers.
   - Incorporate advanced preprocessing like stemming and lemmatization.
   - Optimize feature selection with advanced statistical methods.
+  - Loading data into a database instead of saving into files.
+  - Use Pyspark for large data handling instead of using pandas.
 
 - ## Acknowledgments
   This project is an implementation of text classification using Naive Bayes and highlights the practical aspects of feature engineering and model building.
