@@ -29,7 +29,7 @@
   | `talk.politics.misc`                 | Miscellaneous political topics  |
   | `talk.religion.misc`                 | Miscellaneous religious topics |
 
-  You can download dataset using [**this link**](https://archive.ics.uci.edu/dataset/113/twenty+newsgroups).
+  You can download the dataset using [**this link**](https://archive.ics.uci.edu/dataset/113/twenty+newsgroups).
 
 - ## Project Components
 
